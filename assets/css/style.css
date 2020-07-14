@@ -1,0 +1,96 @@
+/* estilos carteira pessoa fisica */
+
+.carteira{
+    width: 1224px;
+    height: 379px;
+    background-color: #0089D0;
+}
+.titulo{
+    font-size: 19px;
+    line-height: 23px;
+    color: #fff;
+}
+
+.texto{
+    font-size: 15px;
+    line-height: 25px;
+    color: #fff;
+}
+.text-dados {
+    font-size: 18px;
+    line-height: 23px;
+    color: #001E73;
+}
+
+.lado-esquerdo-carteira{
+    border-right: 1px solid #fff;
+    height: 379px;
+}
+
+.lado-direito-carteira {
+    height: 379px;
+}
+.lado-azul{
+    background-color: #0089D0;
+    width: 239px;
+}
+.lado-branco{
+    background-color:#fff;
+    height: 379px;
+}
+.img-enfeite{
+    padding-top: 236px;
+}
+.titular-carteira {
+    font-size: 20px;
+    color: #fff;
+}
+.cargo-titular {
+    font-size: 18px;
+    color: #fff;
+}
+.img-user{
+    width: 145px;
+    height: 197px;
+}
+
+
+/* tipografias: */
+.prometo-bold{
+    font-family: prometo, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.prometo-bold-italic {
+    font-family: prometo, sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.prometo-italic {
+    font-family: prometo, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.prometo-regular {
+    font-family: prometo, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.prometo-XBold{
+    font-family: prometo, sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.prometo-Light{
+    font-family: prometo, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+
+
+
+
