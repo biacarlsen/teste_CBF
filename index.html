@@ -16,9 +16,10 @@
 </head>
 
 <body>
-    <p class="prometo-regular">
-        Carteira para impressão pessoa física
-    </p>
+    <!-- Carteira para impressão pessoa física -->
+    <ul class="mt-3">
+        <li>Carteira para impressão - Pessoa Física</li>
+    </ul>
     <div class="carteira">
         <div class="row borda">
             <div class="col-6 text-center lado-esquerdo-carteira">
@@ -27,12 +28,24 @@
                     verificada
                     através de consulta à lista oficial de intermediários cadastrados,
                     disponível no site da CBF (RNI art. 3. III).</p>
-                <img src="assets/images/logo.png" alt="Logo CBF" class="pt-2">
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4 text-center">
+                        <img src="assets/images/logo.png" alt="Logo CBF" class="pt-2">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/qrcode.png" alt="" class="pt-5 pr-2 img-fluid img-qrcode">
+                    </div>
+                </div>
             </div>
             <div class="col-6 lado-direito-carteira">
                 <div class="row">
                     <div class="col-4 lado-azul mt-5">
-                        <img class="img-fluid img-user ml-3" src="assets/images/user.png" alt="usuario">
+                        <div class="row">
+                            <div class="col text-center">
+                                <img class="img-fluid img-user" src="assets/images/user.png" alt="usuario">
+                            </div>
+                        </div>
                         <p class="prometo-XBold titular-carteira mb-0">Renato de Oliveira</p>
                         <p class="prometo-Light cargo-titular">Intermediário</p>
                     </div>
@@ -51,6 +64,127 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <!-- Carteira para impressão - Pessoa Jurídica -->
+    <ul class="mt-3">
+        <li>Carteira para impressão - Pessoa Jurídica</li>
+    </ul>
+    <div class="carteira">
+        <div class="row borda">
+            <div class="col-6 text-center lado-esquerdo-carteira">
+                <h2 class="titulo prometo-bold mt-5">Carteira de Intermediário</h2>
+                <p class="texto px-5 mt-3 prometo-regular">A regularidade do registro do intermediário deve ser
+                    verificada
+                    através de consulta à lista oficial de intermediários cadastrados,
+                    disponível no site da CBF (RNI art. 3. III).</p>
+                <div class="row">
+                    <div class="col-4"></div>
+                    <div class="col-4 text-center">
+                        <img src="assets/images/logo.png" alt="Logo CBF" class="pt-2">
+                    </div>
+                    <div class="col">
+                        <img src="assets/images/qrcode.png" alt="" class="pt-5 pr-2 img-fluid img-qrcode">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 lado-direito-carteira">
+                <div class="row">
+                    <div class="col-4 lado-azul mt-4">
+                        <div class="row">
+                            <div class="col text-center">
+                                <img class="img-fluid img-logo-empresa " src="assets/images/logoEmpresa.png"
+                                    alt="Logo empresa">
+                                <img class="img-fluid img-user-empresa mt-3" src="assets/images/user.png" alt="usuario">
+                            </div>
+                        </div>
+                        <p class="prometo-XBold titular-carteira mb-0">Renato de Oliveira</p>
+                        <p class="prometo-Light cargo-titular">Intermediário</p>
+                    </div>
+                    <div class="col-5 lado-branco ">
+                        <p class="prometo-XBold mb-0 text-dados mt-5 pt-2">Empresa</p>
+                        <p class="prometo-Light text-dados">Nome da empresa</p>
+                        <p class="prometo-XBold mb-0 text-dados">CNPJ / Registro</p>
+                        <p class="prometo-Light text-dados">00.000.000/0001-00</p>
+                        <p class="prometo-XBold mb-0 text-dados">Número de Identificação</p>
+                        <p class="prometo-Light text-dados ">7777777</p>
+                        <img src="assets/images/cbf.png" alt="Logo CBF" class="mt-5 pt-3">
+                    </div>
+                    <div class="col lado-branco img-enfeite">
+                        <img src="assets/images/enfeite.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- pagina pessoa física -->
+    <ul class="mt-3">
+        <li>Página Pessoa Física</li>
+    </ul>
+
+    <div class="pagina-pessoa-fisica">
+        <div class="row">
+            <div class="col-12">
+                <div class="container">
+                    <div class="row text-center">
+                        <div class="col-12">
+                            <img src="assets/images/logo.png" alt="Logo CBF" class="mt-2">
+                            <h2 class="titulo-pagina-pessoa-fisica prometo-XBold mt-4">
+                                Registro de Intermediário
+                            </h2>
+                        </div>
+                    </div>
+                    <div class="row mt-5 pt-3">
+                        <div class="col-2 text-center">
+                            <img class="img-fluid img-user-empresa-page" src="assets/images/user.png" alt="usuario">
+                        </div>
+                        <div class="col-4">
+                            <p class="mb-0 prometo-XBold text-campos-PF">Nome</p>
+                            <p class="prometo-Light text-campos-PF">Nome do Intermediário</p>
+                            <p class="mb-0 prometo-XBold text-campos-PF mt-4">Empresa</p>
+                            <p class="prometo-Light text-campos-PF">Nome da Empresa</p>
+                        </div>
+                        <div class="col-6">
+                            <p class="mb-0 prometo-XBold text-campos-PF">Status do Cadastro</p>
+                            <p class="prometo-Light text-campos-PF">em 25/05/2020</p>
+                            <div class="row mt-4">
+                                <div class="col-3">
+                                    <button class="btn btn-success px-5">Ativo</button>
+                                </div>
+                                <div class="col-3">
+                                    <button class="btn btn-danger px-5">Inativo</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mt-5 ml-2">
+                        <div class="col">
+                            <p class="mb-0 prometo-XBold text-campos-PF">Número de Identificação</p>
+                            <p class="prometo-Light text-campos-PF">000</p>
+                            <p class="mb-0 prometo-XBold text-campos-PF">Número de Identificação</p>
+                            <p class="prometo-Light text-campos-PF">000</p>
+                            <p class="mb-0 prometo-XBold text-campos-PF">Tel. Fixo</p>
+                            <p class="prometo-Light text-campos-PF">(DDD) 0000-0000</p>
+                        </div>
+                        <div class="col">
+                            <p class="mb-0 prometo-XBold text-campos-PF">CPF / Passaporte</p>
+                            <p class="prometo-Light text-campos-PF">000000000000</p>
+                            <p class="mb-0 prometo-XBold text-campos-PF">E-mail</p>
+                            <p class="prometo-Light text-campos-PF">intermediario@email.com.br</p>
+                            <p class="mb-0 prometo-XBold text-campos-PF">Tel. Celular</p>
+                            <p class="prometo-Light text-campos-PF">(21) 00000-0000</p>
+                        </div>
+                        <div class="col">
+                            <p class="mb-0 prometo-XBold text-campos-PF">Nacionalidade</p>
+                            <p class="prometo-Light text-campos-PF">Brasil</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
     </div>
 
 

@@ -51,7 +51,35 @@
 }
 .img-user{
     width: 145px;
-    height: 197px;
+}
+.img-qrcode{
+    width: 96px;
+}
+
+/* estilos carteira pessoa juridica */
+.img-logo-empresa{
+    width: 150px;
+}
+.img-user-empresa{
+    width: 71px;
+}
+
+/* estilos pagina da pessoa fisica */
+.pagina-pessoa-fisica{
+    height: 2040px;
+}
+.titulo-pagina-pessoa-fisica{
+    font-size: 42px;
+    line-height: 23px;
+    color: #001E73;
+}
+.text-campos-PF{
+    font: 24px;
+    color: #001E73;
+}
+
+.img-user-empresa-page{
+    width: 113px;
 }
 
 
