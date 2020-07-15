@@ -5,9 +5,10 @@
 /* estilos carteira pessoa fisica */
 
 .carteira{
-    width: 1224px;
+    width: 1229px;
     height: 379px;
     background-color: #0089D0;
+    -webkit-print-color-adjust: exact;
 }
 .titulo{
     font-size: 19px;
@@ -24,11 +25,13 @@
     font-size: 18px;
     line-height: 23px;
     color: #001E73;
+    -webkit-print-color-adjust: exact;
 }
 
 .lado-esquerdo-carteira{
     border-right: 1px solid #fff;
     height: 379px;
+    -webkit-print-color-adjust: exact;
 }
 
 .lado-direito-carteira {
@@ -36,6 +39,7 @@
 }
 .lado-azul{
     background-color: #0089D0;
+    -webkit-print-color-adjust: exact;
     width: 239px;
 }
 .lado-branco{
@@ -76,10 +80,12 @@
     font-size: 42px;
     line-height: 23px;
     color: #001E73;
+    -webkit-print-color-adjust: exact;
 }
 .text-campos-PF{
     font: 24px;
     color: #001E73;
+    -webkit-print-color-adjust: exact;
 }
 
 .img-user-empresa-page{
